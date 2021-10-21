@@ -1,0 +1,88 @@
+/* Body szerkesztése */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    background-color: #0C1117;
+    height: 100vh;
+    color: white;
+}
+
+/* "Bevezetés" nevű div szerkesztése */
+
+.bevezetes {color: #f6f6f6;}
+
+.bevezetes h1 {
+    color: #FD363B;
+    opacity: 0.95;
+    font-weight: 500;
+}
+
+.bevezetes h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FD363B;
+    opacity: 0.95;
+    font-size: xx-large;
+}
+
+/* Kezdőoldalon lévő p elemek szerkesztése */
+
+#p1 {padding-bottom: 30px;}
+#p2 {padding-bottom: 30px;}
+
+/* "Lokális repó kezelése" nevű div szerkesztése*/
+
+.localrepo {color: #f6f6f6;}
+
+.localrepo h1 {
+    color: #FD363B;
+    opacity: 0.95;
+    font-weight: 500;
+}
+
+.localrepo h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FD363B;
+    opacity: 0.95;
+    font-size: xx-large;
+}
+
+.localrepo dt {
+    padding-bottom: 0.4px;
+    color: #FD363B;
+    opacity: 0.93;
+}
+
+.localrepo dd {padding-bottom: 10px;}
+
+/* "Távoli repó kezelése" nevű div szerkesztése */
+
+.remoterepo {color: #f6f6f6;}
+
+.remoterepo h1 {
+    color: #FD363B;
+    opacity: 0.93;
+    font-weight: 500;
+}
+
+.remoterepo h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FD363B;
+    opacity: 0.95;
+    font-size: xx-large;
+}
+
+.remoterepo dt {
+    padding-bottom: 0.4px;
+    color: #FD363B;
+    opacity: 0.93;
+}
+
+.remoterepo dd {padding-bottom: 10px;}
